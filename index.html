@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CMSC 100 Exercise 2</title> 
+  <style>
+    body {
+      background: linear-gradient(to bottom, #58110e 0%, #000000 80%);
+      margin: 0;
+      padding: 0;
+      font-family: Tahoma, sans-serif;
+    }
+
+    .flex-container {
+      background-color: #34490e;
+      display: flex;
+      align-items: center;
+      color: #FBF3F2;
+      padding: 10px;
+    }
+
+    .logo img {
+      width: 80px;
+      height: auto;
+      margin-left: 10px;
+    }
+
+    .navigation {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navigation ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navigation ul li {
+      margin-left: 40px;
+    }
+
+    .navigation ul li:first-child {
+      margin-left: 0;
+    }
+
+    .navigation ul li a {
+      color: #FBF3F2;
+      font-size: 22px;
+      text-decoration: none;
+    }
+
+    .navigation ul li a:hover {
+      color: #29581a; 
+    }
+
+    .intro-container {
+      display: flex; 
+      align-items: center; 
+      margin-top: 80px; 
+      justify-content: center;
+    }
+
+    .intro img {
+      width: 375px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .intro-text {
+      margin-left: 60px;
+      color: #FBF3F2; 
+      text-align: left;
+    }
+
+    .intro-text h1 {
+      font-size: 62px;
+      margin-bottom: 10px;
+      color: #29581a;
+    }
+
+    .intro-text p {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    .projects-made {
+      text-align: center; 
+      color: #29581a; 
+      font-size: 30px;
+      margin-top: 60px;
+    }
+
+    .photos-container {
+      display: flex;
+      justify-content: space-around; 
+      margin-top: 20px; 
+    }
+
+    .photo {
+      text-align: center;
+      margin: 0 5px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .photo:hover {
+      transform: scale(1.1);
+    }
+
+    .photo img {
+      width: 350px;
+      height: 250px; 
+      object-fit: cover; 
+      border-radius: 10px;
+    }
+
+    .photo p {
+      font-size: 16px;
+      color: #FBF3F2; 
+      margin-bottom: 70px;
+    }
+
+    .autobiography {
+      text-align: center;
+      color: #FBF3F2;
+      font-size: 18px;
+      margin: 50px auto;
+      max-width: 800px;
+      line-height: 1.6;
+    }
+
+    .autobiography h2 {
+      color: #29581a;
+      font-size: 30px;
+    }
+
+    .footer {
+      color: #FBF3F2; 
+      font-size: 14px;
+      padding: 20px; 
+      text-align: center; 
+      margin-top: 50px; 
+      margin-bottom: 25px;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer img {
+      width: 40px; 
+      height: auto;
+      margin: 0 10px; 
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="logo">
+      <img src="logo.png">
+    </div>
+    <div class="navigation">
+      <ul>
+        <li><a href="https://example.com" target="_blank">Home</a></li>
+        <li><a href="https://example.com" target="_blank">About</a></li>
+        <li><a href="https://example.com" target="_blank">Projects</a></li>
+        <li><a href="https://example.com" target="_blank">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="intro-container"> 
+    <div class="intro">
+      <img src="myphoto.jpg">
+    </div>
+    <div class="intro-text">
+    </div>
+  </div>
+
+  <h2 class="projects-made">Projects Made</h2>
+
+  <div class="photos-container">
+    <div class="photo">
+      <img src="proj.png"> 
+      <p>CMSC 170 PROJECT: SENTIMENT ANALYSIS </p>
+    </div>
+  </div>
+
+  <div class="autobiography">
+    <h2>Autobiography of Jorge Bocobo</h2>
+    <p><strong>Early Life and Background</strong><br>
+    I, Jorge Bocobo, was born on May 7, 2005, in the bustling city of Quezon City, Philippines. Growing up in a dynamic environment filled with challenges and opportunities, I developed a strong sense of curiosity and a drive to carve my own path. From an early age, I was fascinated by technology and the limitless possibilities it offered.</p>
+    
+    <p><strong>Education and Growth</strong><br>
+    I pursued my education at the University of the Philippines Los Baños, where I chose to major in BS Computer Science with a specialization in Cybersecurity. My passion for problem-solving, coding, and ethical hacking led me to this field, knowing that the future relies heavily on digital security. My time at UPLB was filled with learning experiences, from sleepless nights debugging codes to collaborative projects that tested my analytical thinking and perseverance.</p>
+    
+    <p><strong>Passions and Interests</strong><br>
+    Beyond academics, I indulge in my personal interests, which include gaming, singing, and watching TV series. These activities serve as both a source of relaxation and inspiration. Whether I’m strategizing in a competitive game, belting out tunes, or getting lost in a compelling TV series, I find ways to balance work and leisure in a fulfilling way.</p>
+    
+    <p><strong>Mindset and Philosophy</strong><br>
+    My approach to life is simple yet powerful: “Just keep on dreaming, and you will achieve it.” I firmly believe that success comes to those who never stop striving for what they want. Challenges are inevitable, but perseverance and dedication always yield results.</p>
+    
+    <p><strong>Future Aspirations</strong><br>
+    As I continue my journey, my ultimate goal is to become a successful professional in the field of Computer Science, particularly in Cybersecurity. I envision myself as a key player in protecting digital infrastructures, solving complex security issues, and contributing to advancements in technology. The road ahead may be tough, but with determination, continuous learning, and an unwavering commitment to excellence, I know I will achieve my dreams.</p>
+  </div>
+
+  <div class="footer">
+    <div class="footer-container">
+      <img src="github.png" alt="Github">
+    </div>
+    <p>Copyright. All rights reserved.</p>
+  </div>
+</body>
+</html>z
