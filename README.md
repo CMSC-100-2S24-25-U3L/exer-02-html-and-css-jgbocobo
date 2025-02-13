@@ -1,1 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pBNUHphn)
+Full Name:
+Jorge Bocobo
+
+Degree Program:
+BS Computer Science Major in Cybersecurity
+
+Live Website Link:
+https://cmsc-100-2s24-25-u3l.github.io/exer-02-html-and-css-jgbocobo/
+
+Key Takeaways from This Exercise:
+Learned how to set up and deploy a GitHub Pages site.
+Practiced structuring a webpage using HTML and CSS.
+Understood the importance of flexbox layout, navigation menus, and styling techniques.
+Gained experience in working with repositories and using GitHub as a hosting platform.
+Improved skills in creating a professional-looking portfolio website for future use.
